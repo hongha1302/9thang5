@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cho bim</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Gửi Bim</strong>
+                        <p>
+                            Happi 1 năm 10 tháng nha!!! 
+                            Cảm ơn cậu đã yêu thương, nhẫn nại và đấu tranh vì tớ suốt thời gian qua. Tớ xin lỗi vì đã làm mọi thứ siêu khó khăn, tớ đúng là may mắn khi có cậu bên cạnh. Tớ yêu cậu với tất cả mọi thứ tớ có.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
